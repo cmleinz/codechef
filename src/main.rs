@@ -1,5 +1,5 @@
 mod problems;
 
 fn main() {
-    problems::interior_design::solution();
+    problems::make_palagain::solution();
 }
