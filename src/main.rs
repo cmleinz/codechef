@@ -1,5 +1,5 @@
 mod problems;
 
 fn main() {
-    problems::atm_machine::solution();
+    problems::buy_lamps::solution();
 }
