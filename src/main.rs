@@ -1,5 +1,5 @@
 mod problems;
 
 fn main() {
-    problems::make_palagain::solution();
+    problems::atm_machine::solution();
 }
