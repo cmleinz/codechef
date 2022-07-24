@@ -1,5 +1,5 @@
 mod problems;
 
 fn main() {
-    problems::buy_lamps::solution();
+    problems::maximum_median_matching::solution();
 }
