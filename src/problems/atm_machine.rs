@@ -16,11 +16,11 @@
 
 // For each test case, print a single line containing a string with length NNN. For each valid iii, the iii-th character of this string should be '1' if the iii-th person will successfully withdraw their money or '0' otherwise.
 
-use std::io::{stdin, stdout, Write, Read};
+use std::io::{stdin, stdout, Write};
 
 pub fn solution() {
     let mut test_str = String::new();
-    stdout().flush();
+    let _ = stdout().flush();
     stdin().read_line(&mut test_str).unwrap();
     let n: u32 = test_str.trim().parse().unwrap();
     for _ in 0..n {
